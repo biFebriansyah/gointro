@@ -1,9 +1,12 @@
 package main
 
-import "fmt"
-
-// "github.com/biFebriansyah/gointro/module"
+import (
+	inter "github.com/biFebriansyah/gointro/module/intermediate"
+)
 
 func main() {
-	fmt.Println("hello worlds")
+	// inter.WaitGp()
+	// inter.ChanEl()
+	// inter.MuteEx()
+	inter.TestWeb()
 }
