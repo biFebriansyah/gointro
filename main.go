@@ -1,11 +1,9 @@
 package main
 
-import (
-	"github.com/biFebriansyah/gointro/module"
-)
+import "fmt"
+
+// "github.com/biFebriansyah/gointro/module"
 
 func main() {
-	// module.ExamPointer()
-	// module.ExamStruct()
-	module.ExamInterface()
+	fmt.Println("hello worlds")
 }
